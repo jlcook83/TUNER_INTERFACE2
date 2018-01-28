@@ -59,6 +59,7 @@ void setup(){
   PCintPort::attachInterrupt(LDG_LED1, LDG_LED1_INT, RISING); // attach a PinChange Interrupt to our pin on the rising edge
 
   Serial.begin(115200);
+  Serial.println("Welcome to TUNER_INTERFACE2 v0.2");
 }
 
 void LDG_LED1_INT(){
